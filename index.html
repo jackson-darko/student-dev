@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>devjobs</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kumbh+Sans:wght@500&family=Space+Mono&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon"/>
+  </head>
+  <body>
+    <header>
+
+      <div class="main-tab">
+
+        <div class="devjob">devjobs</div>
+              
+          <div class="sun-check-moon">
+          <img class="sun" src="./assets/desktop/icon-sun.svg" alt="icon-sun" />
+
+
+
+              <!-- Beginning Of Toggle Button -->
+              
+            <div class="check">
+          <i class="indicator"></i>
+            </div>
+            
+              <!-- End Of Toggle Button -->
+
+          <img
+            class="moon"
+            src="./assets/desktop/icon-moon.svg"
+            alt="icon-moon"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="search-box">
+          <div class="filter-title">
+            <img
+              class="filter-companies"
+              src="./assets/desktop/icon-search.svg"
+              alt="filter-location"
+            />
+            <form id="form"> 
+            <input class="filter-tit" type="text" placeholder="Filter by title, companies, expertise..." id="title"/>
+            <!-- <input class="tablet-input" type="text" placeholder="Filter by title..." id="tablet-filter"/> -->
+          </div>
+          
+
+
+            <!-- Responsiveness For Tablet -->
+          <div class="tablet-folder">
+            <img
+              class="tablet-search"
+              src="./assets/desktop/icon-search.svg"
+              alt="filter-location"
+            />
+
+            <input class="tablet-input" type="text" placeholder="Filter by title..." id="tablet-filter"/>
+          </div>
+
+          <!-- End -->
+
+          <div class="icon-location" id="items">
+            <img
+              class="icon"
+              src="./assets/desktop/icon-location.svg"
+              alt="icon-location"
+            />
+            <input
+              class="icon-locat"
+              type="text"
+              placeholder="Filter by location..."
+              id="location"
+            />
+          </div>
+
+          <div class="full-time">
+            <input class="checkbox" type="checkbox" id="full-time-only" name="full-time-only"/>
+            <!-- <input type="text"  for="full-time-only" placeholder="Full Time Only" id="checkbox-full-time"
+            /> -->
+            <label id="checkbox-full-time"   for="full-time-only">Full Time<span id="hide-only">Only </label>
+            <button  type="submit" class="btn" >Search</button>
+          </div>
+
+            
+            </form>
+
+
+
+
+            <form id="form1">
+
+          <!-- Responsiveness For Mobile -->
+
+          <div class="allassets">
+
+            <div class="mobfilter">
+              <input type="text" id="mobile-title-filter" class="title1" placeholder="Filter by title...">
+            </div>
+            
+          <div class="mob">
+            <a><img id="mobile-filter" class="mobile-filterbtn" onclick ="popupToggle()" onclick="yes()" src="./assets/mobile/icon-filter.svg" alt="filter for full time jobs"></a>
+          </div>
+          
+
+          <div id="popup" >
+
+            <div class="mobile-menu-backcloth"></div>
+
+            <div class="content">
+
+            <div class="mobile-loc-icon">
+                <img src="./assets/mobile/icon-location.svg" class="mobile-job-location" alt="">
+                <input class="mobile-job" type="text" placeholder="Filter by location..." id="loc"/>
+
+                <div class="loc-location">
+                  
+                </div>
+            </div>
+              
+
+              <hr class="hr">
+
+                <div class="mobile-job-filter">
+
+              <input class="checko" type="checkbox" id="mobile-job-checkbox" name="mobile-job-checkbox"/>
+              <label id="mobile-job-full-time" for="full time only">Full Time Only </label>
+              
+              </div>
+              <button  type="mobile-job-btn" class="mobile-job-btn" >Search</button>
+                
+
+            </div>
+          </div>
+          
+          
+
+          <button id="mobile-search" type="submit"><img src="./assets/mobile/icon-search.svg" alt=""></button>
+          </div>
+
+          </div>
+
+          <!-- End Of Mobile Responsiveness -->
+
+
+            </form>
+
+            </div>
+          </div>
+        </header>
+
+    <div class="append">
+      <div class="grid">
+      
+    </div>
+
+    <div class="testing0">
+    
+    
+    </div>
+
+    <div class="testing1">
+
+    </div>
+
+    <div class="testing2">
+  
+    </div>
+
+    <div class="testing3">
+   
+    </div>
+
+    <div class="testing4">
+   
+    </div>
+    <div class="testing5">
+   
+    </div>
+
+    <div class="testing6">
+   
+    </div>
+
+    <div class="testing7">
+   
+    </div>
+
+    <div class="testing8">
+   
+    </div>
+
+    <div class="testing9">
+   
+    </div>
+
+    <div class="testing10">
+   
+    </div>
+
+    <div class="testing11">
+   
+    </div>
+
+    
+    <div class="testing12">
+   
+    </div>
+
+    
+    <div class="testing13">
+   
+    </div>
+
+    <div class="testing14">
+   
+    </div>
+
+
+
+
+    <div  class="searching">
+
+
+
+    </div>
+
+
+
+
+    
+
+
+
+
+
+
+    <div class="load-more" onclick="Load()">
+      <button class="load-more-btn" >Load More</button>
+    </div>
+
+  </div>
+  
+    <script src="style.js"></script>
+    <script src="next.js"></script>
+    <script src="search-mobile.js"></script>
+    <script src="search.js"></script>
+
+  </body>
+</html>
